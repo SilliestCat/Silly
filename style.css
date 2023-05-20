@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Comic Neue', cursive;
+}
+body{
+	background: rgba(31, 0, 60, 1);
+	color: white;
+}
+header{  
+	background: rgba(80, 40, 82, 0.89);
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow:0px 5px 20px black;
+}
+.NavButtons{
+	margin-left: 400px;
+}
+.NavButton{
+	font-size: 40px;
+	color: rgba(211, 255, 216, 0.6);
+	text-decoration: none;
+	margin-right: 30px;
+}
+a.NavButton:hover{
+	color: rgba(211, 255, 216, 0.8);
+}
+a.NavButton:active{
+	color: rgba(211, 255, 216, 1);
+}
+.PicContainer{
+	width: 25%;
+	float: left;
+}
+.pic{
+	width:100%;
+}
+.container{
+	width: 1000px;
+	background: black;
+	margin: auto;
+}
+h1{
+	font-size: 50px;
+}
+p{
+	font-size: 30px;
+}
+footer{
+		background: rgba(80, 40, 82, 0.89);
+	padding: 20px;
+	margin-top: 20px;
+	box-shadow:0px -5px 20px black;
+}
+h2{
+	text-align:center;
+}
